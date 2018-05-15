@@ -10,9 +10,9 @@ app.controller('MainController', ['$scope', '$firebaseSimpleLogin', '$location',
 
 
         var config = {
-            apiKey: "AIzaSyCYcLg0nPbsTP9yQgJUJE1ow0RLuAxXWTc",
-            authDomain: "ppgca-app.firebaseapp.com",
-            databaseURL: "https://ppgca-app.firebaseio.com"
+            apiKey: "",
+            authDomain: ".firebaseapp.com",
+            databaseURL: "https://.firebaseio.com"
         };
 
         firebase.initializeApp(config);
