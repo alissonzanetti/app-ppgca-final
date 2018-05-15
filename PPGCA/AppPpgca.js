@@ -80,9 +80,6 @@ app.controller('MainController', ['$scope', '$firebaseSimpleLogin', '$location',
                 }, function(error) {
                     console.log(error);
                     login.loading = false;
-                    $scope.signUpMessage = "Algum erro ocorreu";
-                    $rootScope.toggle('myOverlay', 'on');
-
                 });
             }
         }
