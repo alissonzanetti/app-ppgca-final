@@ -99,6 +99,8 @@ app.controller('MainController', ['$scope', '$firebaseSimpleLogin', '$location',
                     $location.path('/userHome');
                 }, function(error) {
                     login.loading = false;
+                    $scope.signUpMessage = "Registro do usuário não encontrado";
+                    $rootScope.toggle('myOverlay', 'on');
                     console.log("Usuário e senha não encontrados");
 
                 });
