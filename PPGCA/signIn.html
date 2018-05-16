@@ -25,5 +25,12 @@
             </button>
          </div>
       </form>
+	 <div overlay="myOverlay">
+         	<h4 id="statusMsg" class="overlay-title">{{signUpMessage}}</h4>
+        	<p toggle="on" bubble target="myOverlay">
+         	<p>Usuário não encontrado.</p>
+         		<span ng-click="showSignIn()" class="btn btn-primary">Confirmado</span>
+         	</p>
+      	</div>
    </div>
 </div>
